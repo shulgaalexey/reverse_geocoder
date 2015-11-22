@@ -91,4 +91,6 @@ reverse_geocode_cb(maps_error_e result, int request_id, int index, int total,
 }
 ```
 
-
+Reference
+---------
+https://developer.tizen.org/development/tutorials/native-application/location/maps-service#geocode
