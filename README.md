@@ -57,7 +57,8 @@ maps_service_destroy(ad->maps);
 ```
 /* Run Geocoder */
 int request_id = 0;
-maps_service_reverse_geocode(ad->maps, 55.7601365, 37.6164599, NULL, reverse_geocode_cb, ad, &request_id);
+maps_service_reverse_geocode(ad->maps, 55.7601365, 37.6164599, NULL,
+		reverse_geocode_cb, ad, &request_id);
 ```
 
 ### Define Reverse Geocoder Callback
