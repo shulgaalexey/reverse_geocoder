@@ -7,7 +7,7 @@
 
 Reverse Geocode API is one of the Maps Services provided by the Tizen Native Location Framework.
 
-<img src="https://github.com/shulgaalexey/geocoder/blob/master/doc/maps_service.png" alt="Tizen Native Geocode API" style="width:500px"/>
+<img src="https://github.com/shulgaalexey/reverse_geocoder/blob/master/doc/maps_service.png" alt="Tizen Native Maps Service API" style="width:500px"/>
 
 To start using the Reverse Geocode API we are going to:
 
@@ -47,7 +47,7 @@ Include the Maps Service API header file:
 #include <maps_service.h>
 ```
 
-NOTE: This allows using all Native Maps Service API. For more details visit https://developer.tizen.org/development/api-references/. 
+NOTE: This allows using all Native Maps Service API. For more details visit https://developer.tizen.org/development/api-references/.
 Navigate to 2.4 API References -> Native Application ->Mobile Native -> Native API Reference -> Location -> Maps Service.
 
 Add a Maps Service handle to the appdata_s structure:
